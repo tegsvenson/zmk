@@ -9,19 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-//combo
-/ {
-    combos {
-        compatible = "zmk,combos";
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 36 11 47>;
-            bindings = <&kp ESC>;
-            layers = <-1>;
-        };
-    };
-};
-
 //tapping time
 &mt {
     tapping-term-ms = <150>;
